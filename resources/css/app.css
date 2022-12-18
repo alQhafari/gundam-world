@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .container-small{
+        @apply px-4 md:px-8
+    }
+    .container-large{
+        @apply px-4 md:px-20
+    }
+    .container-xl{
+        @apply px-4 md:px-24
+    }
+    .bg-button{
+        background-color: #18263C;
+    }
+    .link-hover{
+        color: #0047FF;
+    }
+    .container-bg-color{
+        background-color: #9C747420;
+    }
+}
